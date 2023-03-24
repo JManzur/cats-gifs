@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  iss-tracker:
+    container_name: cats-gifs
+    image: jmanzur/cats-gifs
+    restart: always
+    ports:
+      - 5001:5001/tcp
